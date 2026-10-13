@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Atanu Saha · Physician &amp; Critical Care Specialist</title>
+    <meta name="description" content="Portfolio of Dr. Atanu Saha (MBBS Honours, Medical College Kolkata), House Physician at Intensive Cardiac Care Unit (ICCU). NEET State Rank 122, AIR 11k.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/simple.css">
+</head>
+<body>
+    <div class="site-shell" id="siteShell">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="container">
+                <a class="nav-brand" href="#home" aria-label="Dr. Atanu Saha">
+                    <span class="brand-icon"><i class="fas fa-heart-pulse"></i></span>
+                    <span>Dr. Atanu Saha</span>
+                </a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallery">Moments &amp; Life</a></li>
+                    <li><a href="#achievements">Milestones</a></li>
+                    <li><a href="#procedures">ICCU Care</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#clinical">Clinical Practice</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <!-- Hero Section with Glowing ECG Rhythm -->
+            <section id="home" class="hero">
+                <canvas id="ecgCanvas" class="hero-canvas" aria-hidden="true"></canvas>
+                <div class="container hero-grid">
+                    <div class="hero-intro">
+                        <span class="eyebrow"><i class="fas fa-stethoscope"></i> Medical College Kolkata (MCK) · MBBS (Honours)</span>
+                        <h1>Dr. Atanu Saha</h1>
+                        <p class="hero-subtitle">Dedicated House Physician currently managing acute cardiac emergencies and advanced hemodynamics at the Intensive Cardiac Care Unit (ICCU). Alumnus of the historic Medical College Kolkata (estd. 1835).</p>
+                        <div class="hero-tags">
+                            <span class="tag tag-crimson"><i class="fas fa-heart-pulse"></i> ICCU Critical Care</span>
+                            <span class="tag"><i class="fas fa-building-columns"></i> Medical College Kolkata</span>
+                            <span class="tag"><i class="fas fa-award"></i> MBBS with Honours</span>
+                            <span class="tag"><i class="fas fa-trophy"></i> State Rank 122</span>
+                            <span class="tag"><i class="fas fa-chart-line"></i> NEET AIR 11k</span>
+                            <span class="tag"><i class="fas fa-graduation-cap"></i> HS 91%</span>
+                        </div>
+                        <div class="hero-actions">
+                            <a href="#gallery" class="btn btn-primary"><i class="fas fa-camera"></i> Explore Life &amp; Duty</a>
+                            <a href="#contact" class="btn btn-secondary"><i class="fas fa-calendar-check"></i> Connect with Me</a>
+                            <a href="pdf/CV_Atanu_Saha.pdf" class="btn btn-secondary" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Resume</a>
+                        </div>
+                    </div>
+                    <aside class="hero-profile" aria-label="Profile summary">
+                        <div class="profile-card">
+                            <img src="images/atanu_photo.jpeg" alt="Dr. Atanu Saha" class="profile-photo" loading="eager">
+                            <ul class="profile-stats">
+                                <li>
+                                    <span>House Physician</span>
+                                    <small>Intensive Cardiac Care Unit (ICCU)</small>
+                                </li>
+                                <li>
+                                    <span>Medical College Kolkata</span>
+                                    <small>MBBS (Honours) · Asia's Oldest Medical College</small>
+                                </li>
+                                <li>
+                                    <span>Competitive Excellence</span>
+                                    <small>NEET State Rank 122 · AIR 11,000</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+
+            <!-- PHOTO GALLERY CAROUSEL SECTION (Duty & Lifestyle) -->
+            <section id="gallery" class="gallery-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Moments, Duty &amp; Lifestyle</h2>
+                        <p>A glimpse into the life of a physician — from intensive hospital wards to life beyond the white coat.</p>
+                    </div>
+
+                    <!-- Row 1: Clinical Duty & Hospital Life -->
+                    <div class="gallery-subhead">
+                        <h3><i class="fas fa-user-doctor" style="color: var(--accent);"></i> Clinical Duty, Procedures &amp; Hospital Life</h3>
+                        <span>Swipe / Scroll horizontally &rarr;</span>
+                    </div>
+                    <div class="carousel-track-wrapper">
+                        <div class="carousel-track">
+                            <div class="photo-card">
+                                <img src="images/gallery/clinical_01.jpeg" alt="Welcoming a newborn - First Normal Vaginal Delivery" loading="lazy">
+                                <div class="photo-caption">
+                                    <h4>Welcoming New Life</h4>
+                                    <p>First Normal Vaginal Delivery (NVD) — unforgettable labor room moment.</p>
+                                </div>
+                            </div>
+                            <div class="photo-card">
+                                <img src="images/gallery/clinical_04.jpeg" alt="In the Operating Theatre in surgical scrubs" loading="lazy">
+                                <div class="photo-caption">
+                                    <h4>Operating Theatre (OT)</h4>
+                                    <p>Surgical scrubs on, precision instruments ready for procedure.</p>
+                                </div>
+                            </div>
+                            <div class="photo-card">
+                                <img src="images/gallery/clinical_03.jpeg" alt="Emergency trauma suturing in emergency ward" loading="lazy">
+                                <div class="photo-caption">
+                                    <h4>Emergency Trauma Care</h4>
+                                    <p>Hands-on acute facial laceration suturing &amp; wound management.</p>
+                                </div>
+                            </div>
+                            <div class="photo-card">
+                                <img src="images/gallery/clinical_06.jpeg" alt="Orthopedic plaster casting and fracture X-ray review" loading="lazy">
+                                <div class="photo-caption">
+                                    <h4>Orthopedic Fracture Care</h4>
+                                    <p>Plaster casting, limb immobilization &amp; diagnostic X-ray correlation.</p>
+                                </div>
+                            </div>
+                            <div class="photo-card">
+                                <img src="images/gallery/clinical_02.jpeg" alt="Pediatric care and neonatal ward duty" loading="lazy">
+                                <div class="photo-caption">
+                                    <h4>Neonatal &amp; Pediatric Care</h4>
+                                    <p>Gentle hands delivering critical care to our tiniest fighters.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 2: Life, Travel & Moments Beyond the Ward -->
+                    <div class="gallery-subhead">
+                        <h3><i class="fas fa-camera-retro" style="color: var(--crimson);"></i> Life, Vibes &amp; Memories</h3>
+                        <span>Swipe / Scroll horizontally &rarr;</span>
+                    </div>
+                    <div class="carousel-track-wrapper">
+                        <div class="carousel-track">
+                            <div class="photo-card">
+                                <img src="images/gallery/life_car_drive.jpeg" alt="Monsoon road drive behind the steering wheel" loading="lazy">
+                                <div class="photo-caption">
+                                    <h4>Monsoon Drive</h4>
+                                    <p>Raindrops on the windshield, peaceful drive &amp; favorite playlist.</p>
+                                </div>
+                            </div>
+                            <div class="photo-card">
+                                <img src="images/gallery/life_06.jpeg" alt="Royal Enfield motorbike night ride" loading="lazy">
+                                <div class="photo-caption">
+                                    <h4>Night Rides</h4>
+                                    <p>Late night open road cruise on the motorcycle under the stars.</p>
+                                </div>
+                            </div>
+                            <div class="photo-card">
+                                <img src="images/gallery/life_01.jpeg" alt="Snow clad Himalayan valley in Kashmir" loading="lazy">
+                                <div class="photo-caption">
+                                    <h4>Himalayan Escapes</h4>
+                                    <p>Breathtaking snow-clad mountains &amp; scenic northern valleys.</p>
+                                </div>
+                            </div>
+                            <div class="photo-card">
+                                <img src="images/gallery/life_02.jpeg" alt="Mountain sunshine in Sonamarg / Kashmir" loading="lazy">
+                                <div class="photo-caption">
+                                    <h4>Mountain Air</h4>
+                                    <p>Sunny glacial breezes &amp; recharging away from city hustle.</p>
+                                </div>
+                            </div>
+                            <div class="photo-card">
+                                <img src="images/gallery/life_04.jpeg" alt="Kolkata night skyline by Vidyasagar Setu" loading="lazy">
+                                <div class="photo-caption">
+                                    <h4>City of Joy by Night</h4>
+                                    <p>River Hooghly breezes overlooking the iconic Vidyasagar Setu.</p>
+                                </div>
+                            </div>
+                            <div class="photo-card">
+                                <img src="images/gallery/life_03.jpeg" alt="Victoria Memorial fountain lights" loading="lazy">
+                                <div class="photo-caption">
+                                    <h4>Kolkata Evenings</h4>
+                                    <p>Heritage evenings illuminated by the city's golden fountains.</p>
+                                </div>
+                            </div>
+                            <div class="photo-card">
+                                <img src="images/gallery/life_05.jpeg" alt="Good times and angel wings neon backdrop" loading="lazy">
+                                <div class="photo-caption">
+                                    <h4>Good Vibes &amp; Hangouts</h4>
+                                    <p>Unwinding with friends, great conversations and laughter.</p>
+                                </div>
+                            </div>
+                            <div class="photo-card">
+                                <img src="images/gallery/life_07.jpeg" alt="Night cruise and cool breeze" loading="lazy">
+                                <div class="photo-caption">
+                                    <h4>Night Whispers</h4>
+                                    <p>The quiet roads where thoughts clear and tomorrow begins.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ACADEMIC & COMPETITIVE MILESTONES (Compact Single Row Strip) -->
+            <section id="achievements" class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Academic &amp; Competitive Milestones</h2>
+                        <p>Consistent merit, discipline, and top-tier rankings across medical entrance boards.</p>
+                    </div>
+                    <div class="milestones-strip">
+                        <div class="milestone-box highlight">
+                            <div class="milestone-header">
+                                <div class="milestone-icon"><i class="fas fa-trophy"></i></div>
+                                <div class="milestone-stat crimson">Rank 122</div>
+                            </div>
+                            <h3>State Rank 122</h3>
+                            <p>State-wide top tier rank in intensely competitive medical entrance exam.</p>
+                        </div>
+                        <div class="milestone-box">
+                            <div class="milestone-header">
+                                <div class="milestone-icon"><i class="fas fa-chart-line"></i></div>
+                                <div class="milestone-stat">AIR 11k</div>
+                            </div>
+                            <h3>NEET All India Rank</h3>
+                            <p>Placed in the top national percentile among over a million candidates nationwide.</p>
+                        </div>
+                        <div class="milestone-box highlight">
+                            <div class="milestone-header">
+                                <div class="milestone-icon"><i class="fas fa-award"></i></div>
+                                <div class="milestone-stat crimson">Honours</div>
+                            </div>
+                            <h3>MBBS (Honours) — MCK</h3>
+                            <p>Distinction from Medical College Kolkata reflecting clinical &amp; theoretical mastery.</p>
+                        </div>
+                        <div class="milestone-box">
+                            <div class="milestone-header">
+                                <div class="milestone-icon"><i class="fas fa-graduation-cap"></i></div>
+                                <div class="milestone-stat">91%</div>
+                            </div>
+                            <h3>Higher Secondary</h3>
+                            <p>Academic excellence in science board examinations with top physics and biology scores.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ICCU CORE COMPETENCIES (Modern Animated / Dark Clinical Boxes) -->
+            <section id="procedures" class="competencies-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>ICCU Core Competencies</h2>
+                        <p>Hands-on acute cardiac management, life support, and continuous physiological monitoring.</p>
+                    </div>
+                    <div class="competencies-grid">
+                        <div class="comp-box crimson-pulse">
+                            <div class="comp-icon"><i class="fas fa-heart-pulse"></i></div>
+                            <h4>Advanced Life Support (ACLS)</h4>
+                            <p>Resuscitation protocol execution, emergency cardioversion, defibrillation, and post-arrest stabilization.</p>
+                        </div>
+                        <div class="comp-box">
+                            <div class="comp-icon"><i class="fas fa-syringe"></i></div>
+                            <h4>Vasoactive &amp; Inotropic Titration</h4>
+                            <p>Precise infusion management of noradrenaline, dobutamine, and vasopressin for hemodynamic collapse.</p>
+                        </div>
+                        <div class="comp-box">
+                            <div class="comp-icon"><i class="fas fa-wave-square"></i></div>
+                            <h4>Emergency ECG &amp; Arrhythmias</h4>
+                            <p>Real-time diagnosis of STEMI/NSTEMI, VT/VF rhythms, complete heart blocks, and acute ischemia progressions.</p>
+                        </div>
+                        <div class="comp-box">
+                            <div class="comp-icon"><i class="fas fa-vial-virus"></i></div>
+                            <h4>ABG &amp; Electrolyte Homeostasis</h4>
+                            <p>Rapid arterial blood gas analysis, acid-base correction, oxygenation index tracking, and ventilatory adjustments.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>About Dr. Atanu</h2>
+                        <p>Combining rigorous clinical discipline, precision diagnosis, and compassionate bedside patient care.</p>
+                    </div>
+                    <div class="about-wrapper">
+                        <div class="about-summary">
+                            <h3><i class="fas fa-user-doctor" style="color: var(--accent);"></i> Professional Profile</h3>
+                            <p>Dr. Atanu Saha is an accomplished medical professional and House Physician specializing in Intensive Cardiac Care. Graduating with <strong>Honours in MBBS from the historic Medical College Kolkata (estd. 1835)</strong>, Asia’s premier medical seat, he brings a distinguished academic foundation and intense clinical training across high-volume tertiary care wards to acute medicine.</p>
+                            <p>Currently stationed in the <strong>Intensive Cardiac Care Unit (ICCU)</strong>, Dr. Saha manages high-stakes emergencies including acute coronary syndromes (STEMI/NSTEMI), cardiogenic shock, malignant arrhythmias, and acute decompensated heart failure. His practice is anchored in prompt evidence-based clinical decision-making, patient stabilization, and compassionate communication with families.</p>
+                            <p>With top-tier merit rankings across state and national medical entrance boards, he remains continually committed to advancing medical knowledge, critical care expertise, and clinical therapeutics.</p>
+                        </div>
+                        <div class="about-details">
+                            <div class="about-box">
+                                <h3><i class="fas fa-graduation-cap" style="color: var(--accent);"></i> Education &amp; Training</h3>
+                                <ul class="timeline">
+                                    <li class="timeline-item">
+                                        <div class="timeline-title">House Physician — ICCU</div>
+                                        <div class="timeline-subtitle">Intensive Cardiac Care Unit · Present</div>
+                                    </li>
+                                    <li class="timeline-item">
+                                        <div class="timeline-title">Bachelor of Medicine &amp; Surgery (MBBS) — Honours</div>
+                                        <div class="timeline-subtitle">Medical College and Hospital, Kolkata (MCK)</div>
+                                    </li>
+                                    <li class="timeline-item">
+                                        <div class="timeline-title">Higher Secondary (HS)</div>
+                                        <div class="timeline-subtitle">Academic Distinction · 91% Aggregate</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="about-box">
+                                <h3><i class="fas fa-medal" style="color: var(--accent);"></i> Key Achievements</h3>
+                                <ul class="timeline">
+                                    <li class="timeline-item">
+                                        <div class="timeline-title">State Rank 122</div>
+                                        <div class="timeline-subtitle">State Medical Entrance Merit</div>
+                                    </li>
+                                    <li class="timeline-item">
+                                        <div class="timeline-title">NEET All India Rank 11,000</div>
+                                        <div class="timeline-subtitle">National Examination Merit</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Clinical Practice Focus -->
+            <section id="clinical" class="section section-alt">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Clinical Focus &amp; Competencies</h2>
+                        <p>High-acuity medical management, critical resuscitation, and modern cardiology care.</p>
+                    </div>
+                    <div class="card-grid">
+                        <article class="info-card">
+                            <div class="card-icon crimson"><i class="fas fa-heart-circle-bolt"></i></div>
+                            <h3>Cardiac Emergency Management</h3>
+                            <p>Rapid assessment and protocol-driven resuscitation for STEMI, NSTEMI, hypertensive crises, and cardiogenic collapse.</p>
+                            <span class="card-tag">ICCU / Emergency</span>
+                        </article>
+                        <article class="info-card">
+                            <div class="card-icon"><i class="fas fa-wave-square"></i></div>
+                            <h3>Advanced ECG Interpretation</h3>
+                            <p>Diagnostic proficiency in complex cardiac dysrhythmias, conduction blocks, axis deviations, and ischemic progressions.</p>
+                            <span class="card-tag">Diagnostics</span>
+                        </article>
+                        <article class="info-card">
+                            <div class="card-icon"><i class="fas fa-lungs"></i></div>
+                            <h3>Critical Care &amp; Resuscitation</h3>
+                            <p>Hemodynamic monitoring, vasoactive drug titration, arterial blood gas (ABG) analysis, and electrolyte homeostasis in unstable patients.</p>
+                            <span class="card-tag">Critical Care</span>
+                        </article>
+                        <article class="info-card">
+                            <div class="card-icon"><i class="fas fa-book-medical"></i></div>
+                            <h3>Evidence-Based Therapeutics</h3>
+                            <p>Application of the latest clinical guidelines in cardiology, internal medicine, and multi-organ supportive therapy.</p>
+                            <span class="card-tag">Clinical Protocols</span>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact & Social Connect Section -->
+            <section id="contact" class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Get in Touch &amp; Follow Along</h2>
+                        <p>Connect with Dr. Atanu Saha for consultations, medical exchanges, or social updates.</p>
+                    </div>
+                    <div class="contact-grid">
+                        <div class="contact-card">
+                            <i class="fas fa-hospital-user" aria-hidden="true"></i>
+                            <h3>Designation</h3>
+                            <p>House Physician, ICCU</p>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-building-columns" aria-hidden="true"></i>
+                            <h3>Alma Mater</h3>
+                            <p>Medical College Kolkata</p>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-location-dot" aria-hidden="true"></i>
+                            <h3>Location</h3>
+                            <p>Kolkata, West Bengal, India</p>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <h3>Inquiries</h3>
+                            <a href="mailto:atanu.saha.doc@example.com">atanu.saha.doc@example.com</a>
+                        </div>
+                    </div>
+
+                    <!-- Direct Social Profiles -->
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/dr.atanu_saha?dlrf=d2htbW9mNzB0M3Fo&utm_source=qr" target="_blank" rel="noopener" class="social-pill instagram" title="Follow Dr. Atanu Saha on Instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram @dr.atanu_saha</span>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100058234050587&mibextid=wwXIfr&rdid=Xsy5HoLc7124leBL&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1HUD3sJzzG%2F%3Fmibextid%3DwwXIfr%26ref%3D1#" target="_blank" rel="noopener" class="social-pill facebook" title="Connect on Facebook">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook Profile</span>
+                        </a>
+                        <a href="mailto:atanu.saha.doc@example.com" class="social-pill email" title="Send Email">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email Directly</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2026 Dr. Atanu Saha · MBBS (Honours), Medical College Kolkata. All rights reserved.</p>
+                <p class="footer-quote">"Wherever the art of medicine is loved, there is also a love of humanity." — Hippocrates</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/simple.js" defer></script>
+</body>
+</html>
